@@ -1,0 +1,166 @@
+body {
+    min-height: 100vh;
+    max-width: 1000px;
+    font-family: 'Sarabun', sans-serif;
+    margin: auto;
+    background-color: #f1f3f7;
+    display: flexbox;
+    padding: 4px;
+}
+
+nav {
+    margin:2px 0;
+    padding: 10px;
+    background-color: #fff;
+    display:flex;
+    justify-content:space-between;
+}
+nav .logo {
+    font-size: 0%;
+}
+nav button{
+border:none;
+text-justify: auto;
+background-color: #fff;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 0;
+}
+
+.avatar{
+    justify-items: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+.card {
+    width: 500px;
+   
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 2px 3px #e4e8f0;
+    box-shadow: 2px 2px 3px #e4e8f0;
+    padding: 4px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #eff0f2;
+    border-radius: 1rem;
+}
+
+.bin {
+    padding: 0 2px 0 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+
+}
+
+.bin img {
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgb(11, 11, 12);
+    border-radius: 50%;
+    padding: 4px;
+
+}
+
+.detail {
+    background-color: rgb(192, 202, 198);
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:normal;
+    padding: 20px;
+    margin: 2px;
+    border:1px #fff;
+    border-radius: 15%;
+    font-color:grey;
+}
+
+h5 {
+    font-size: large;
+    margin: 5px 0 1px;
+}
+
+.star {
+    display: flex;
+
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin:2px 0 3px ;
+  }
+
+  .checked {
+    background-color: orange;
+  }
+
+select{
+border:1px #fff;
+
+}
+.cart {
+    width: 500px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 3px #e4e8f0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #edecec;
+    background-clip: border-box;
+    border: 1px solid #eff0f2;
+    border-radius: 1rem;
+
+}
+.row{
+padding: 20px;
+font-color:Blue ;
+
+}
+hr {
+    border-style: solid;
+    border-color: rgb(145, 148, 153);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    t
+}
+
+.column {
+display: flex;
+justify-content: space-between;
+
+}
+.column2 {
+    padding: 5px;
+
+
+}
+button{
+padding: 3px;
+background-color: rgb(147, 137, 137);
+/* font-size: ; */
+
+
+}
+
